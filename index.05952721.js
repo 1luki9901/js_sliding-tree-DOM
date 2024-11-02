@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector(".tree");e.addEventListener("click",function(e){if("SPAN"===e.target.tagName){var t=e.target.parentElement.querySelector("ul");t&&t.classList.toggle("hidden")}}),e.querySelectorAll("li > span").forEach(function(e){var t=e.parentElement.querySelector("ul");t&&t.classList.add("hidden")})});
+//# sourceMappingURL=index.05952721.js.map
